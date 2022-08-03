@@ -1,9 +1,9 @@
-:root {
+/* :root {
   --color1: #000000;
   --color2: #333333;
-  --color3: #0d6efd;
+  --color3: rgb(227, 227, 227);
   --color4: #6200EE;
-}
+} */
 
 .projectsContainer {
   display: flex;
@@ -18,4 +18,5 @@
 
 .bgColor {
   background-color: var(--color3);
+  color: var(--color2);
 }

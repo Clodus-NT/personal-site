@@ -3,20 +3,16 @@
 :root {
   --color1: #000000;
   --color2: #333333;
-  --color3: #0d6efd;
+  --color3: rgb(227, 227, 227);
   --color4: #6200EE;
 }
-
-/* Main Color #DDEDF4
-Secondary Color: #1181B2 */
-
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   background-color: var(--color1);
-  color: white;
+  color: var(--color3);
   font-family: 'Lato', sans-serif;
 }
 

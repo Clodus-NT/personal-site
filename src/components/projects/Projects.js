@@ -17,10 +17,10 @@ export default function Projects() {
                   <Card.Img className="bgColor" variant='top' src='../../public/assets/pokedex.png' />
                   <Card.Title className="bgColor">JS-Dex</Card.Title>
                   <Card.Text className="bgColor">This pokedex contains all 151 original, generation 1 Pokemon. It loads data from an API and displays each pokemon's name on a button that opens up a bootstrap modal displaying corresponding stats.</Card.Text>
-                  <Card.Link className="bgColor" href='https://github.com/Clodus-NT/js-dex' target='blank' >
+                  <Card.Link className="bgColor project-link" href='https://github.com/Clodus-NT/js-dex' target='blank' >
                     <Button variant="link" >Code</Button>
                   </Card.Link>
-                  <Card.Link className="bgColor" href='https://clodus-nt.github.io/js-dex/' target='blank' >
+                  <Card.Link className="bgColor project-link" href='https://clodus-nt.github.io/js-dex/' target='blank' >
                     <Button variant="link">Live</Button>
                   </Card.Link>
               </Card.Body>
@@ -62,8 +62,6 @@ export default function Projects() {
           </CardGroup>
         </Col>
       </Row>
-
-      <p>Want to see the code behind this site? Check it out <a href='https://github.com/Clodus-NT/personal-site' target='blank'>here</a>.</p>
     </Container>
   )
 }

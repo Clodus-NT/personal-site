@@ -1,17 +1,17 @@
 /* :root {
   --color1: #000000;
   --color2: #333333;
-  --color3: #555555;
-  --color4: #44449B;
+  --colorBone: rgb(227, 227, 227);
+  --color4: #6200EE;
 } */
 
 .navColors {
   background-color: var(--color1);
-  color: white;
+  color: var(--color3);
 }
 
 .navColors:hover {
-  color: var(--color3);
+  color: var(--color4);
 }
 
 .navContainer {

@@ -1,0 +1,27 @@
+/* :root {
+  --color1: #000000;
+  --color2: #333333;
+  --color3: rgb(227, 227, 227);
+  --color4: #6200EE;
+} */
+
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+}
+
+.github-link {
+  text-decoration: underline;
+  color: var(--color3);
+}
+
+.github-link:hover {
+  color: var(--color4);
+}
