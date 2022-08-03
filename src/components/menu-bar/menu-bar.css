@@ -1,8 +1,29 @@
+/* :root {
+  --color1: #000000;
+  --color2: #333333;
+  --color3: #555555;
+  --color4: #44449B;
+} */
+
 .navColors {
-  background-color: #060408;
-  color: #E7DFDD;
+  background-color: var(--color1);
+  color: white;
 }
 
 .navColors:hover {
-  color: #4717F6;
+  color: var(--color3);
+}
+
+.navContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.navBrand {
+  font-size: 35px;
+}
+
+.navLink {
+  font-size: larger;
 }

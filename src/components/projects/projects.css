@@ -1,0 +1,21 @@
+:root {
+  --color1: #000000;
+  --color2: #333333;
+  --color3: #0d6efd;
+  --color4: #6200EE;
+}
+
+.projectsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardElement {
+  border: 20%;
+}
+
+.bgColor {
+  background-color: var(--color3);
+}
