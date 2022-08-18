@@ -23,10 +23,10 @@
 
 .navBrand {
   padding-left: 25px;
-  font-size: 35px;
+  font-size: 2em;
   display: flex;
 }
 
 .navLink {
-  font-size: larger;
+  font-size: 1.2em;
 }
