@@ -6,16 +6,30 @@
   --color4: #6200EE;
 }
 
+.mainContainer {
+  padding-top: 200px;
+}
+
 .splashContainer {
   margin: 25px;
-  width: 50%;
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
 }
 
 .splashText {
   font-size: 60px;
+}
+
+.projectsLink {
+  text-decoration: none;
+  color: var(--color4);
+}
+
+.projectsLink:hover {
+  text-decoration: underline;
+  color: var(--color4);
 }
 
 Button {
