@@ -21,14 +21,8 @@
   justify-content: flex-start;
 }
 
-/* .navContainer {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-} */
-
 .navBrand {
+  padding-left: 25px;
   font-size: 35px;
   display: flex;
 }
