@@ -47,11 +47,9 @@ export default function Projects() {
         <Col>
           <CardGroup className="bgColor cardGroup">
             <Card className="bgColor card">
-              <Card.Img className="bgColor"/>
                 <Card.Body className="bgColor">
                   <Card.Title className="bgColor">Movie API</Card.Title>
                   <Card.Text className="bgColor">The server side component for my nixFlix web application. It provides access to movie and user info.</Card.Text>
-                  <Card.Img className="bgColor" src='pokedex.png' />
                   <Card.Link className="bgColor" href='https://github.com/Clodus-NT/movie-api' target='blank' >
                     <Button className="linkBtn"  >Code</Button>
                   </Card.Link>
@@ -68,10 +66,29 @@ export default function Projects() {
                   <Card.Img className="bgColor" variant='top' src='../../public/assets/pokedex.png' />
                   <Card.Title className="bgColor">nixFlix Move App</Card.Title>
                   <Card.Text className="bgColor">A client-side movie application created with React.js that is based on existing server-side code (REST API and database).</Card.Text>
-                  <Card.Link className="bgColor project-link" href='https://github.com/Clodus-NT/js-dex' target='blank' >
-                    <Button className="linkBtn"  >Code</Button>
+                  <Card.Link className="bgColor project-link" href='https://github.com/Clodus-NT/nix-flix-client' target='blank' >
+                    <Button className="linkBtn" >Code</Button>
                   </Card.Link>
                   <Card.Link className="bgColor project-link" href='https://clodus-nt.github.io/js-dex/' target='blank' >
+                    <Button className="linkBtn" >Live</Button>
+                  </Card.Link>
+              </Card.Body>
+            </Card>
+          </CardGroup>
+        </Col>
+
+        {/* To-Do App */}
+        <Col>
+          <CardGroup className="bgColor cardGroup">
+            <Card className="bgColor">
+                <Card.Body className="bgColor">
+                  <Card.Img className="bgColor" variant='top' src='../../public/assets/pokedex.png' />
+                  <Card.Title className="bgColor">To-Do App</Card.Title>
+                  <Card.Text className="bgColor">A simple To-Do application that allows you to add items, cross them out, remove them, and reorder them.</Card.Text>
+                  <Card.Link className="bgColor project-link" href='https://github.com/Clodus-NT/to-do-app' target='blank' >
+                    <Button className="linkBtn" >Code</Button>
+                  </Card.Link>
+                  <Card.Link className="bgColor project-link" href='https://clodus-nt.github.io/to-do-app/' target='blank' >
                     <Button className="linkBtn" >Live</Button>
                   </Card.Link>
               </Card.Body>
