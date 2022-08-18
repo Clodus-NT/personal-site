@@ -6,9 +6,29 @@
 } */
 
 .projectsContainer {
+  margin-top: 55px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+}
+
+.projectsHeaders {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.projectsHeader2 {
+  font-size: 1.5em;
+}
+
+.projectsRow {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: row;
   justify-content: center;
 }
 

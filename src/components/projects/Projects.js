@@ -5,9 +5,11 @@ import './projects.css';
 export default function Projects() {
   return (
     <Container className="projectsContainer">
+      <Col className="projectsHeaders">
         <h1>Projects</h1>
-        <p>Check out some of my projects!</p>
-      <Row>
+        <p className="projectsHeader2">Check out some of my projects!</p>
+      </Col>
+      <Row className="projectsRow">
         {/* Pokedex */}
         <Col>
           <CardGroup className="bgColor cardGroup">
