@@ -7,10 +7,10 @@ export default function MainView(props) {
     <Container>
       <div className="splashContainer">
         <p className="splashText">Hi! I'm a web developer based in Tallahassee, Florida.</p>
-        <div className="btnContainer">
+        {/* <div className="btnContainer">
           <Button>Resume</Button>
           <Button>Github</Button>
-        </div>
+        </div> */}
       </div>
     </Container>
   )

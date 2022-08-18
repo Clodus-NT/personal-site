@@ -7,7 +7,7 @@
 }
 
 .splashContainer {
-  margin-top: 6vw;
+  margin: 25px;
   width: 50%;
   display: flex;
   flex-direction: row;
@@ -15,7 +15,7 @@
 }
 
 .splashText {
-  font-size: 5vw;
+  font-size: 60px;
 }
 
 Button {
