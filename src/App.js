@@ -14,9 +14,9 @@ function App() {
       <MenuBar />
       <Router basename={'/personal-site/'}>
         <Routes>
-            <Route exact path='/' element={ <MainView />} />
-            <Route exact path='/projects' element={ <Projects/> } />
-            <Route exact path='/about' element={ <About/> } />
+            <Route exact path='/personal-site/' element={ <MainView />} />
+            <Route exact path='/personal-site/projects' element={ <Projects/> } />
+            <Route exact path='/personal-site/about' element={ <About/> } />
         </Routes>
       </Router>
       <Footer />
