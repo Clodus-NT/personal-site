@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="App">
       <MenuBar />
-      <Router>
+      <Router basename={'/personal-site/'}>
         <Routes>
             <Route exact path='/' element={ <MainView />} />
             <Route path='/projects' element={ <Projects/> } />
