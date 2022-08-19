@@ -15,8 +15,8 @@ function App() {
       <Router basename={'/personal-site/'}>
         <Routes>
             <Route exact path='/' element={ <MainView />} />
-            <Route path='/projects' element={ <Projects/> } />
-            <Route path='/about' element={ <About/> } />
+            <Route path='/personal-site/projects' element={ <Projects/> } />
+            <Route path='/personal-site/about' element={ <About/> } />
         </Routes>
       </Router>
       <Footer />
