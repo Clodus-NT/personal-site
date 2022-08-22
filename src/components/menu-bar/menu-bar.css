@@ -6,11 +6,21 @@
 } */
 
 .navColors {
+  text-decoration: none;
   background-color: var(--color1);
   color: var(--color3);
 }
 
-.navColors:hover {
+.navColors:focus,
+.navColors:active {
+  color: var(--colorBone);
+}
+
+/* :hover cannot be used on a catch all class or it causes issues */
+.navName:hover,
+.navHome:hover,
+.navProjects:hover,
+.navAbout:hover {
   color: var(--color4);
 }
 
