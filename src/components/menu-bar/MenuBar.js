@@ -8,8 +8,8 @@ export default function MenuBar() {
       <Navbar.Brand  className='navColors navBrand' href='/'>Nick Turner</Navbar.Brand>
       <Nav className='navColors navLinkContainer'>
         <Nav.Link className='navColors navLink' href="/">Home</Nav.Link>
-        <Nav.Link className='navColors navLink' href="/projects">Projects</Nav.Link>
-        <Nav.Link className='navColors navLink' href="/about">About</Nav.Link>
+        <Nav.Link className='navColors navLink' href="#/projects">Projects</Nav.Link>
+        <Nav.Link className='navColors navLink' href="#/about">About</Nav.Link>
       </Nav>
     </Navbar>
   )
