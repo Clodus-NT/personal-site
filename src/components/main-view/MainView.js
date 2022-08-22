@@ -7,7 +7,7 @@ export default function MainView(props) {
     <Container className="mainContainer">
       <div className="splashContainer">
         <p className="splashText">
-          Hi! I'm Nick, a web developer based in Tallahassee, Florida. Check out some of my <a  className="projectsLink" href="/projects">projects</a>.
+          Hi! I'm Nick, a web developer based in Tallahassee, Florida. Check out some of my <a  className="projectsLink" href="#/projects">projects</a>.
         </p>
       </div>
     </Container>
