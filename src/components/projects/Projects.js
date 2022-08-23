@@ -16,7 +16,8 @@ export default function Projects() {
             <Card className="bgColor">
                 <Card.Body className="bgColor cardBody">
                   <Card.Title className="bgColor">JS-Dex</Card.Title>
-                  <Card.Img className="bgColor" src='../../public/assets/pokedex.png' />
+                  <Card.Img className="bgColor" src={require ('./pokedex.png')} />
+                  {/* <Card.Img className="bgColor" src='../../../public/assets/pokedex.png' /> */}
                   <Card.Text className="bgColor">This pokedex contains all 151 original, generation 1 Pokemon. It loads data from an API and displays each pokemon's name on a button that opens up a bootstrap modal displaying corresponding stats.</Card.Text>
                   <div className="bgColor">
                     <Card.Link className="bgColor project-link" href='https://github.com/Clodus-NT/js-dex' target='blank' >
@@ -72,7 +73,7 @@ export default function Projects() {
           <CardGroup className="bgColor cardGroup">
             <Card className="bgColor">
               <Card.Body className="bgColor cardBody">
-                <Card.Title className="bgColor">nixFlix Move App</Card.Title>
+                <Card.Title className="bgColor">nixFlix Movie App</Card.Title>
                 <Card.Img className="bgColor" src='../../public/assets/pokedex.png' />
                 <Card.Text className="bgColor">A client-side movie application created with React.js that is based on existing server-side code (REST API and database).</Card.Text>
                 <div className="bgColor">
