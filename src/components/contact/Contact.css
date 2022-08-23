@@ -1,0 +1,40 @@
+/* :root {
+  --color1: #000000;
+  --color2: #333333;
+  --color3: rgb(227, 227, 227);
+  --color4: #6200EE;
+} */
+
+.bgColor {
+  background-color: var(--color3);
+}
+
+.contactContainer {
+  margin: auto;
+  /* width: 75%; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardElement {
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardBodyLinks {
+  display: flex;
+  flex-direction: row;
+}
+
+.linksContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.contactEmail {
+  color: var(--color4);
+}

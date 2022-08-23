@@ -10,6 +10,7 @@ export default function MenuBar() {
         <Nav.Link className='navColors navLink navHome' href="#/">Home</Nav.Link>
         <Nav.Link className='navColors navLink navProjects' href="#/projects">Projects</Nav.Link>
         <Nav.Link className='navColors navLink navAbout' href="#/about">About</Nav.Link>
+        <Nav.Link className='navColors navLink navAbout' href="#/contact">Contact</Nav.Link>
       </Nav>
     </Navbar>
   )

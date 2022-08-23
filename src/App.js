@@ -7,6 +7,7 @@ import MainView from './components/main-view/MainView';
 import About from './components/about/About';
 import Projects from './components/projects/Projects';
 import Footer from './components/footer/Footer';
+import Contact from './components/contact/Contact';
 import './App.css';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
             <Route exact path='/' element={ <MainView />} />
             <Route exact path='/projects' element={ <Projects/> } />
             <Route exact path='/about' element={ <About/> } />
+            <Route exact path='/contact' element={ <Contact/> } />
         </Routes>
       </HashRouter>
       <Footer />

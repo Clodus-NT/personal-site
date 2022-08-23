@@ -40,7 +40,7 @@ export default function Projects() {
             <Card className="bgColor">
                 <Card.Body className="bgColor cardBody">
                   <Card.Title className="bgColor">Chat App</Card.Title>
-                  <Card.Img className="cardImage" src={require ('./img/chatapp1.png')} />
+                  {/* <Card.Img className="cardImage" src={require ('./img/chatapp1.png')} /> */}
                   <Card.Img className="cardImage" src={require ('./img/chatapp2.png')} />
                   <Card.Text className="bgColor">A simple chat app for mobile devices using React Native. The app provides users with a chat interface, the option to share images and the option to share location.</Card.Text>
                   <Card.Img className="bgColor" href='./project-imgs/pokedex.png' />
