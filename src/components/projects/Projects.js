@@ -4,20 +4,22 @@ import './projects.css';
 
 export default function Projects() {
   return (
-    <Container className="projectsContainer">
+    <Container fluid className="projectsContainer">
       <Col className="projectsHeaders">
         <h1>Projects</h1>
         <p className="projectsHeader2">Check out some of my projects!</p>
       </Col>
-      <Row className="projectsRow">
+      <Col className="projectsCol ">
         {/* Pokedex */}
         <Col className="cardCol">
           <CardGroup className="bgColor cardGroup">
-            <Card className="bgColor">
+            <Card className="bgColor cardElement">
                 <Card.Body className="bgColor cardBody">
                   <Card.Title className="bgColor">JS-Dex</Card.Title>
-                  <Card.Img className="cardImage" src={require ('./img/pokedex.png')} />
-                  <Card.Img className="cardImage" src={require ('./img/gengar.png')} />
+                  <div className="imageContainer bgColor">
+                    <Card.Img className="cardImage" src={require ('./img/pokedex.png')} />
+                    <Card.Img className="cardImage" src={require ('./img/gengar.png')} />
+                  </div>
                   <Card.Text className="bgColor">This pokedex contains all 151 original, generation 1 Pokemon. It loads data from an API and displays each pokemon's name on a button that opens up a bootstrap modal displaying corresponding stats.</Card.Text>
                   <div className="bgColor">
                     <Card.Link className="bgColor project-link" href='https://github.com/Clodus-NT/js-dex' target='blank' >
@@ -111,7 +113,7 @@ export default function Projects() {
           </CardGroup>
         </Col>
 
-      </Row>
+      </Col>
     </Container>
   )
 }

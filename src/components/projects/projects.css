@@ -26,15 +26,16 @@
   font-size: 1.5em;
 }
 
-.projectsRow {
+.projectsCol {
   margin-top: 25px;
   display: flex;
-  flex-direction: row;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .cardGroup {
   border-radius: 15px;
+  margin: 25px;
 }
 
 .cardBody {
@@ -42,6 +43,14 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.imageContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+
 }
 
 .cardImage {
