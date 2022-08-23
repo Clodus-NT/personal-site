@@ -16,8 +16,8 @@ export default function Projects() {
             <Card className="bgColor">
                 <Card.Body className="bgColor cardBody">
                   <Card.Title className="bgColor">JS-Dex</Card.Title>
-                  <Card.Img className="bgColor" src={require ('./pokedex.png')} />
-                  {/* <Card.Img className="bgColor" src='../../../public/assets/pokedex.png' /> */}
+                  <Card.Img className="bgColor" src={require ('./img/pokedex.png')} />
+                  <Card.Img className="bgColor" src={require ('./img/gengar.png')} />
                   <Card.Text className="bgColor">This pokedex contains all 151 original, generation 1 Pokemon. It loads data from an API and displays each pokemon's name on a button that opens up a bootstrap modal displaying corresponding stats.</Card.Text>
                   <div className="bgColor">
                     <Card.Link className="bgColor project-link" href='https://github.com/Clodus-NT/js-dex' target='blank' >
@@ -38,7 +38,8 @@ export default function Projects() {
             <Card className="bgColor">
                 <Card.Body className="bgColor cardBody">
                   <Card.Title className="bgColor">Chat App</Card.Title>
-                  <Card.Img className="bgColor" src='../../public/assets/pokedex.png' />
+                  <Card.Img className="bgColor" src={require ('./img/chatapp1.png')} />
+                  <Card.Img className="bgColor" src={require ('./img/chatapp2.png')} />
                   <Card.Text className="bgColor">A simple chat app for mobile devices using React Native. The app provides users with a chat interface, the option to share images and the option to share location.</Card.Text>
                   <Card.Img className="bgColor" href='./project-imgs/pokedex.png' />
                   <div className="bgColor">
@@ -95,7 +96,7 @@ export default function Projects() {
             <Card className="bgColor">
                 <Card.Body className="bgColor cardBody">
                   <Card.Title className="bgColor">To-Do App</Card.Title>
-                  <Card.Img className="bgColor" src='../../public/assets/pokedex.png' />
+                  <Card.Img className="bgColor" src={require ('./img/todo.png')} />
                   <Card.Text className="bgColor">A simple To-Do application that allows you to add items, cross them out, remove them, and reorder them.</Card.Text>
                   <div className="bgColor">
                     <Card.Link className="bgColor project-link" href='https://github.com/Clodus-NT/to-do-app' target='blank' >
