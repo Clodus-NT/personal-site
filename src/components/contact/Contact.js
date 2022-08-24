@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Card, CardGroup, div } from "react-bootstrap";
+import { Card, CardGroup, Button } from "react-bootstrap";
 import './Contact.css';
 
 export default function Contact() {
@@ -16,7 +16,10 @@ export default function Contact() {
         <Card className="cardElement bgColor">
           <Card.Title className="cardTitle bgColor">Contact</Card.Title>
           <Card.Text className="bgColor contactText">Get in touch with me via email, download my resume or check out my socials.</Card.Text>
-          <Card.Text className="bgColor">Email: j.nickturner@gmail.com</Card.Text>
+          <Card.Text className="bgColor emailText">j.nickturner@gmail.com</Card.Text>
+          <a className="bgColor" href='Nick_Turner_Resume_2022.pdf' download>
+            <Button className="downloadBtn">Download Resume</Button>
+          </a>
           <Card.Body className="cardBodyLinks bgColor">
             <Card.Link target="_blank" className="bgColor" href="https://www.linkedin.com/in/nick-turner-a1b23223b/">
               <Card.Img className="bgColor" src={require ('./img/linkedin.png')} />
