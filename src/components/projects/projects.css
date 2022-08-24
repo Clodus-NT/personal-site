@@ -6,7 +6,7 @@
 } */
 
 .projectsContainer {
-  margin-top: 55px;
+  margin-top: 25px;
   margin-bottom: 75px;
 }
 
@@ -25,8 +25,7 @@
 .cardsContainer {
   margin-top: 25px;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  /* gap: 15px; */
+  grid-template-columns: repeat(4, 1fr);
   grid-auto-rows: minimax(100px, auto);
   justify-items: center;
   /* align-items: center; */
@@ -41,7 +40,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content:space-around;
 }
 
 .cardElement {
@@ -50,17 +49,53 @@
 
 }
 
+.pokedexCard {
+  grid-column: auto / span 2;
+}
+
+.movieAppCard {
+  grid-column: auto / span 2;
+}
+
+.chatAppCard {
+  grid-column: auto / span 2;
+}
+
+.todoCard {
+  grid-column: auto / span 1;
+}
+
+.apiCard {
+  grid-column: auto / span 1;
+}
+
 .imageContainer {
+  padding-left: 10px;
+  padding-right: 10px;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  flex-wrap: wrap;
+  width: 60%;
+  /* flex-wrap: wrap;
+  overflow: auto; */
 
 }
 
 .cardImage {
   margin: 15px;
-  width: 65%;
+  width: 70%;
+}
+
+.pokedexImageMain {
+  width: 100%;
+}
+
+.pokedexImageStats {
+  width: 75%;
+}
+
+.todoImage {
+  width: 100%;
 }
 
 .bgColor {
