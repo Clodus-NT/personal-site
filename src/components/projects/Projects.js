@@ -9,10 +9,11 @@ export default function Projects() {
         <h1>Projects</h1>
         <p className="projectsHeader2">Check out some of my projects!</p>
       </Col>
-      <Col className="projectsCol ">
+
+      <Row className="cardsContainer">
+
         {/* Pokedex */}
-        <Col className="cardCol">
-          <CardGroup className="bgColor cardGroup">
+          <CardGroup className="bgColor pokedexCard cardGroup">
             <Card className="bgColor cardElement">
                 <Card.Body className="bgColor cardBody">
                   <Card.Title className="bgColor">JS-Dex</Card.Title>
@@ -32,12 +33,10 @@ export default function Projects() {
               </Card.Body>
             </Card>
           </CardGroup>
-        </Col>
 
         {/* Chat App */}
-        <Col>
-          <CardGroup className="bgColor cardGroup">
-            <Card className="bgColor">
+          <CardGroup className="bgColor chatAppCard cardGroup">
+            <Card className="bgColor cardElement">
                 <Card.Body className="bgColor cardBody">
                   <Card.Title className="bgColor">Chat App</Card.Title>
                   {/* <Card.Img className="cardImage" src={require ('./img/chatapp1.png')} /> */}
@@ -52,12 +51,10 @@ export default function Projects() {
               </Card.Body>
             </Card>
           </CardGroup>
-        </Col>
 
         {/* Movie Api */}
-        <Col>
-          <CardGroup className="bgColor cardGroup">
-            <Card className="bgColor card">
+          <CardGroup className="bgColor apiCard cardGroup">
+            <Card className="bgColor cardElement">
               <Card.Body className="bgColor cardBody">
                 <Card.Title className="bgColor">Movie API</Card.Title>
                 <Card.Text className="bgColor">The server side component for my nixFlix web application. It provides access to movie and user info.</Card.Text>
@@ -69,12 +66,10 @@ export default function Projects() {
               </Card.Body>
             </Card>
           </CardGroup>
-        </Col>
 
         {/* nixFlix */}
-        <Col>
-          <CardGroup className="bgColor cardGroup">
-            <Card className="bgColor">
+          <CardGroup className="bgColor apiCard cardGroup">
+            <Card className="bgColor cardElement">
               <Card.Body className="bgColor cardBody">
                 <Card.Title className="bgColor">nixFlix Movie App</Card.Title>
                 <Card.Img className="bgColor" src='../../public/assets/pokedex.png' />
@@ -90,12 +85,10 @@ export default function Projects() {
               </Card.Body>
             </Card>
           </CardGroup>
-        </Col>
 
         {/* To-Do App */}
-        <Col>
-          <CardGroup className="bgColor cardGroup">
-            <Card className="bgColor">
+          <CardGroup className="bgColor apiCard cardGroup">
+            <Card className="bgColor cardElement">
                 <Card.Body className="bgColor cardBody">
                   <Card.Title className="bgColor">To-Do App</Card.Title>
                   <Card.Img className="cardImage" src={require ('./img/todo.png')} />
@@ -111,9 +104,8 @@ export default function Projects() {
               </Card.Body>
             </Card>
           </CardGroup>
-        </Col>
 
-      </Col>
+      </Row>
     </Container>
   )
 }
