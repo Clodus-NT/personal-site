@@ -5,14 +5,7 @@ import './Contact.css';
 export default function Contact() {
   return (
     <div className="contactContainer">
-      {/* <h1 className="contactHeader">Contact</h1>
-      <h4>Get in touch!</h4>
-      <p>Email: j.nickturner@gmail.com</p>
-
-      <div className="linkContainer">
-        
-      </div> */}
-      <CardGroup className="cardGroup bgColor">
+      <CardGroup className="cardGroup">
         <Card className="cardElement bgColor">
           <Card.Title className="cardTitle bgColor">Contact</Card.Title>
           <Card.Text className="bgColor contactText">Get in touch with me via email, download my resume or check out my socials.</Card.Text>
@@ -33,7 +26,6 @@ export default function Contact() {
           </Card.Body>
         </Card>
       </CardGroup>
-
     </div>
   )
 }

@@ -4,14 +4,68 @@
   --color3: rgb(227, 227, 227);
   --color4: #6200EE;
 } */
- 
-.blurb-container,
+
+.bgColor {
+  background-color: var(--color3);
+}
+
+.aboutContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 9%;
+  width: 100%;
+}
+
+.aboutCardGroup {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+  border-radius: 15%;
+  width: 75%;
+}
+
+.aboutCard {
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutCardTitle {
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.aboutText {
+  font-size: larger;
+}
+
+.aboutDownloadBtn {
+  background-color: var(--color2);
+  border-color: var(--color2);
+}
+
+.aboutDownloadBtn:hover {
+  color: var(--color3);
+  background-color: var(--color4);
+  border-color: var(--color4);
+}
+
+.aboutBodyLinks {
+  display: flex;
+  flex-direction: row;
+}
+
+/* .blurb-container,
 .blurb-header,
 .socials-container,
 .socials-text,
 .blurb-text,
 .links{
-  /* background-color: var(--color3); */
   color: var(--color3);
 }
 
@@ -55,4 +109,4 @@
 
 .links:hover {
   color: var(--color4);
-}
+} */
