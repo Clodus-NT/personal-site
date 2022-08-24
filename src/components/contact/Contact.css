@@ -38,7 +38,7 @@
 }
 
 .emailText {
-  color: var(--color4);
+  color: var(--color);
   font-size: x-large;
   font-weight: bold;
 }
@@ -53,17 +53,13 @@
   flex-direction: row;
 }
 
-.contactEmail {
-  color: var(--color4);
-}
-
 .downloadBtn {
-  color: var(--color3);
-  background-color: var(--color4);
-  border-color: var(--color4);
+  background-color: var(--color2);
+  border-color: var(--color2);
 }
 
 .downloadBtn:hover {
-  background-color: var(--color2);
-  border-color: var(--color2);
+  color: var(--color3);
+  background-color: var(--color4);
+  border-color: var(--color4);
 }
