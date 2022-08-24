@@ -26,10 +26,10 @@
   margin-top: 25px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 15px;
+  /* gap: 15px; */
   grid-auto-rows: minimax(100px, auto);
   justify-items: center;
-  align-items: center;
+  /* align-items: center; */
 }
 
 .cardGroup {
@@ -47,6 +47,7 @@
 .cardElement {
   border: none;
   padding: 0px;
+
 }
 
 .imageContainer {
@@ -59,6 +60,7 @@
 
 .cardImage {
   margin: 15px;
+  width: 65%;
 }
 
 .bgColor {

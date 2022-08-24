@@ -11,7 +11,6 @@ export default function Projects() {
       </Col>
 
       <Row className="cardsContainer">
-
         {/* Pokedex */}
           <CardGroup className="bgColor pokedexCard cardGroup">
             <Card className="bgColor cardElement">
@@ -30,6 +29,25 @@ export default function Projects() {
                       <Button className="linkBtn" >Live</Button>
                     </Card.Link>
                   </div>
+              </Card.Body>
+            </Card>
+          </CardGroup>
+
+        {/* nixFlix */}
+          <CardGroup className="bgColor apiCard cardGroup">
+            <Card className="bgColor cardElement">
+              <Card.Body className="bgColor cardBody">
+                <Card.Title className="bgColor">nixFlix Movie App</Card.Title>
+                <Card.Img className="bgColor" src='../../public/assets/pokedex.png' />
+                <Card.Text className="bgColor">A client-side movie application created with React.js that is based on existing server-side code (REST API and database).</Card.Text>
+                <div className="bgColor">
+                  <Card.Link className="bgColor project-link" href='https://github.com/Clodus-NT/nix-flix-client' target='blank' >
+                    <Button className="linkBtn" >Code</Button>
+                  </Card.Link>
+                  <Card.Link className="bgColor project-link" href='https://clodus-nt.github.io/js-dex/' target='blank' >
+                    <Button className="linkBtn" >Live</Button>
+                  </Card.Link>
+                </div>
               </Card.Body>
             </Card>
           </CardGroup>
@@ -67,25 +85,6 @@ export default function Projects() {
             </Card>
           </CardGroup>
 
-        {/* nixFlix */}
-          <CardGroup className="bgColor apiCard cardGroup">
-            <Card className="bgColor cardElement">
-              <Card.Body className="bgColor cardBody">
-                <Card.Title className="bgColor">nixFlix Movie App</Card.Title>
-                <Card.Img className="bgColor" src='../../public/assets/pokedex.png' />
-                <Card.Text className="bgColor">A client-side movie application created with React.js that is based on existing server-side code (REST API and database).</Card.Text>
-                <div className="bgColor">
-                  <Card.Link className="bgColor project-link" href='https://github.com/Clodus-NT/nix-flix-client' target='blank' >
-                    <Button className="linkBtn" >Code</Button>
-                  </Card.Link>
-                  <Card.Link className="bgColor project-link" href='https://clodus-nt.github.io/js-dex/' target='blank' >
-                    <Button className="linkBtn" >Live</Button>
-                  </Card.Link>
-                </div>
-              </Card.Body>
-            </Card>
-          </CardGroup>
-
         {/* To-Do App */}
           <CardGroup className="bgColor apiCard cardGroup">
             <Card className="bgColor cardElement">
@@ -104,7 +103,6 @@ export default function Projects() {
               </Card.Body>
             </Card>
           </CardGroup>
-
       </Row>
     </Container>
   )
