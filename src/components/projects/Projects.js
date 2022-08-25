@@ -1,14 +1,14 @@
 import React from "react";
-import {Button, Card, CardGroup, Container, Row} from 'react-bootstrap';
+import {Col, Button, Card, CardGroup, Container, Row} from 'react-bootstrap';
 import './projects.css';
 
 export default function Projects() {
   return (
     <Container fluid className="projectsContainer">
-      {/* <Col className="projectsHeaders">
+      <Col className="projectsHeaders">
         <h1>Projects</h1>
-        <p className="projectsHeader2">Check out some of my projects!</p>
-      </Col> */}
+        <p className="projectsHeader2">Check out some of my work!</p>
+      </Col>
 
       <Row className="cardsContainer">
 
