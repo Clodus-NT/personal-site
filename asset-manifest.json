@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.e80b3cf2.css",
-    "main.js": "/static/js/main.a29cfc6b.js",
+    "main.css": "/static/css/main.2d478bf7.css",
+    "main.js": "/static/js/main.0e92aa4b.js",
     "static/media/chatapp1crop.png": "/static/media/chatapp1crop.d2c76d8f88be8be59875.png",
     "static/media/pokedex.png": "/static/media/pokedex.870210ef8531ef874010.png",
     "static/media/chatapp2crop.png": "/static/media/chatapp2crop.52a484299c8bb6b90c71.png",
     "static/media/gengar.png": "/static/media/gengar.96826aa868ee9aa22df4.png",
     "static/media/todo.png": "/static/media/todo.6e25806a2500deb19b42.png",
     "index.html": "/index.html",
-    "main.e80b3cf2.css.map": "/static/css/main.e80b3cf2.css.map",
-    "main.a29cfc6b.js.map": "/static/js/main.a29cfc6b.js.map"
+    "main.2d478bf7.css.map": "/static/css/main.2d478bf7.css.map",
+    "main.0e92aa4b.js.map": "/static/js/main.0e92aa4b.js.map"
   },
   "entrypoints": [
-    "static/css/main.e80b3cf2.css",
-    "static/js/main.a29cfc6b.js"
+    "static/css/main.2d478bf7.css",
+    "static/js/main.0e92aa4b.js"
   ]
 }
