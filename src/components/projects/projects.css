@@ -67,7 +67,7 @@
 }
 
 .apiCard {
-  grid-column: auto / span 1;
+  grid-column: auto / span 2;
 }
 
 .imageContainer {

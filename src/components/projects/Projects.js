@@ -96,7 +96,7 @@ export default function Projects() {
             <Card className="bgColor cardElement">
               <Card.Body className="bgColor cardBody">
                 <Card.Title className="bgColor">Movie API</Card.Title>
-                <Card.Text className="bgColor">The server side component for my nixFlix web application. It provides access to movie and user info.</Card.Text>
+                <Card.Text className="bgColor">The server side component for my nixFlix web application. It provides access to movie and user info. Endpoints have been set up to allow users to register and account, login, view movies, add movies to favorites list, update their profile, and delete their account.</Card.Text>
                 <div className="bgColor">
                   <Card.Link className="bgColor" href='https://github.com/Clodus-NT/movie-api' target='blank' >
                     <Button className="linkBtn"  >Code</Button>
