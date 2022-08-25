@@ -13,6 +13,7 @@
 .footer {
   border-top: solid;
   border-color: rgb(22, 22, 22);
+  background-color: var(--color1);
   width: 100%;
   position: fixed;
   bottom: 0;
