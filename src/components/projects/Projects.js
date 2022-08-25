@@ -40,7 +40,7 @@ export default function Projects() {
               <Card.Body className="bgColor cardBody">
                 <Card.Title className="bgColor">nixFlix Movie App</Card.Title>
                 <Card.Img className="bgColor" src='../../public/assets/pokedex.png' />
-                <Card.Text className="bgColor">A client-side movie application created with React.js that is based on existing server-side code (REST API and database).</Card.Text>
+                <Card.Text className="bgColor">A client-side movie application created with React.js that is based on existing server-side code (REST API and database). Users can register, login, add movies to a favorites list, update their profile, and delete their account.</Card.Text>
                 <div className="bgColor">
                   <Card.Link className="bgColor project-link" href='https://github.com/Clodus-NT/nix-flix-client' target='blank' >
                     <Button className="linkBtn" >Code</Button>

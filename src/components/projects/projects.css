@@ -111,7 +111,17 @@
   background-color: var(--color1);
 }
 
-@media (max-width: 500px) {
+@media (max-width: 1250px) {
+  .cardsContainer {
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minimax(100px, auto);
+    justify-items: center;
+  }
+}
+
+@media (max-width: 800px) {
   .cardsContainer {
     margin-top: 25px;
     display: grid;
