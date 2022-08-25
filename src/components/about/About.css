@@ -60,53 +60,19 @@
   flex-direction: row;
 }
 
-/* .blurb-container,
-.blurb-header,
-.socials-container,
-.socials-text,
-.blurb-text,
-.links{
-  color: var(--color3);
-}
+@media (max-width: 500px) {
 
-.about-container {
-  margin-top: 10%;;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-}
+  .aboutContainer {
+    padding-top: 4%;
 
-.blurb-header {
-  font-size: 45px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
+  }
 
-.blurb-container {
-  width: 70%;
-  border-radius: 5%;
-  font-size: 30px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+  .aboutCardGroup {
+    width: 85%;
+  }
 
-.socials-container{
-  display: flex;
-  flex-direction: row;
+  .aboutCard {
+    padding: 20px;
+  }
+  
 }
-
-.links{
-  text-decoration: underline;
-  margin: 5px;
-  font-size: large;
-  display: flex;
-  flex-direction: row;
-}
-
-.links:hover {
-  color: var(--color4);
-} */
