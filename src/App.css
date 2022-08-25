@@ -7,9 +7,10 @@
   --color4: #6200EE;
 }
 
-* {
+html, body {
   margin: 0;
   padding: 0;
+  height: 100%;
   box-sizing: border-box;
   background-color: var(--color1);
   color: var(--color3);
