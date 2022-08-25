@@ -24,19 +24,37 @@
   color: var(--color4);
 }
 
-.nav {
-  width: 100%;
+/* .nav {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-}
+} */
 
 .navBrand {
   padding-left: 25px;
   font-size: 2em;
-  display: flex;
 }
 
 .navLink {
   font-size: 1.2em;
+}
+
+@media (max-width: 500px) {
+
+  .nav {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .navName:hover,
+  .navHome:hover,
+  .navProjects:hover,
+  .navAbout:hover {
+    color: var(--color3);
+  }
+
+  .navBrand {
+    display: none;
+  }
+
 }
