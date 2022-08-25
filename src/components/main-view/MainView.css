@@ -35,3 +35,15 @@
 Button {
   margin: 10px;
 }
+
+@media (max-width: 500px) {
+
+  .mainContainer {
+    padding-top: 15px;
+  }
+
+  .splashText {
+    font-size: 45px;
+  }
+
+}
