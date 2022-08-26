@@ -1,18 +1,23 @@
 {
   "files": {
     "main.css": "/static/css/main.c08362a0.css",
-    "main.js": "/static/js/main.2c26beb9.js",
+    "main.js": "/static/js/main.ef0758e0.js",
+    "static/media/angularMovie1.png": "/static/media/angularMovie1.626f8167003b3c64a68f.png",
+    "static/media/reactMovie1.png": "/static/media/reactMovie1.5f3802d1a732a401b849.png",
+    "static/media/reactMovie2.png": "/static/media/reactMovie2.a683ccbafcd395bf134b.png",
+    "static/media/angularMovie2.png": "/static/media/angularMovie2.33956ef5d6c4e5089bcd.png",
     "static/media/chatapp1crop.png": "/static/media/chatapp1crop.d2c76d8f88be8be59875.png",
+    "static/media/postmanTest.png": "/static/media/postmanTest.fae37cd46c60d9fbc12c.png",
     "static/media/pokedex.png": "/static/media/pokedex.870210ef8531ef874010.png",
     "static/media/chatapp2crop.png": "/static/media/chatapp2crop.52a484299c8bb6b90c71.png",
     "static/media/gengar.png": "/static/media/gengar.96826aa868ee9aa22df4.png",
     "static/media/todo.png": "/static/media/todo.6e25806a2500deb19b42.png",
     "index.html": "/index.html",
     "main.c08362a0.css.map": "/static/css/main.c08362a0.css.map",
-    "main.2c26beb9.js.map": "/static/js/main.2c26beb9.js.map"
+    "main.ef0758e0.js.map": "/static/js/main.ef0758e0.js.map"
   },
   "entrypoints": [
     "static/css/main.c08362a0.css",
-    "static/js/main.2c26beb9.js"
+    "static/js/main.ef0758e0.js"
   ]
 }
