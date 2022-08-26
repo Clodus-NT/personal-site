@@ -34,13 +34,14 @@ export default function Projects() {
             </Card>
           </CardGroup>
 
-        {/* nixFlix */}
+        {/* nixFlix React */}
           <CardGroup className="bgColor movieAppCard cardGroup">
             <Card className="bgColor cardElement">
               <Card.Body className="bgColor cardBody">
-                <Card.Title className="bgColor">nixFlix Movie App</Card.Title>
-                <Card.Img className="bgColor" src='../../public/assets/pokedex.png' />
-                <Card.Text className="bgColor">A client-side movie application created with React.js that is based on existing server-side code (REST API and database). Users can register, login, add movies to a favorites list, update their profile, and delete their account.</Card.Text>
+                <Card.Title className="bgColor">nixFlix React App</Card.Title>
+                <Card.Img className="bgColor cardImage" src={require ('./img/reactMovie1.png')} />
+                <Card.Img className="bgColor cardImage chatAppImage" src={require ('./img/reactMovie2.png')} />
+                <Card.Text className="bgColor">A client-side movie application built with React.js that is based on existing server-side code (REST API and database). Users can register, login, add movies to a favorites list, update their profile, and delete their account.</Card.Text>
                 <div className="bgColor">
                   <Card.Link className="bgColor project-link" href='https://github.com/Clodus-NT/nix-flix-client' target='blank' >
                     <Button className="linkBtn" >Code</Button>
@@ -96,7 +97,7 @@ export default function Projects() {
             <Card className="bgColor cardElement">
               <Card.Body className="bgColor cardBody">
                 <Card.Title className="bgColor">Movie API</Card.Title>
-                <Card.Text className="bgColor">The server side component for my nixFlix web application. It provides access to movie and user info. Endpoints have been set up to allow users to register and account, login, view movies, add movies to favorites list, update their profile, and delete their account.</Card.Text>
+                <Card.Text className="bgColor">The server side component for my nixFlix web applications built using Node.js, MongoDb, Express, and tested in Postman. It provides access to movie and user info. Endpoints have been set up to allow users to register an account, login, view movies, add movies to favorites list, update their profile, and delete their account.</Card.Text>
                 <div className="bgColor">
                   <Card.Link className="bgColor" href='https://github.com/Clodus-NT/movie-api' target='blank' >
                     <Button className="linkBtn"  >Code</Button>
