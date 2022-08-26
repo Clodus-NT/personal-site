@@ -117,6 +117,7 @@ export default function Projects() {
             <Card className="bgColor cardElement">
               <Card.Body className="bgColor cardBody">
                 <Card.Title className="bgColor">Movie API</Card.Title>
+                <Card.Img className="cardImage todoImage" src={require ('./img/postmanTest.png')} />
                 <Card.Text className="bgColor">The server side component for my nixFlix web applications built using Node.js, MongoDb, Express, and tested in Postman. It provides access to movie and user info. Endpoints have been set up to allow users to register an account, login, view movies, add movies to favorites list, update their profile, and delete their account.</Card.Text>
                 <div className="bgColor">
                   <Card.Link className="bgColor" href='https://github.com/Clodus-NT/movie-api' target='blank' >
