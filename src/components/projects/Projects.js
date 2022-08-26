@@ -73,6 +73,26 @@ export default function Projects() {
             </Card>
           </CardGroup>
 
+        {/* nixFlix Angular */}
+          <CardGroup className="bgColor movieAppCard cardGroup">
+            <Card className="bgColor cardElement">
+              <Card.Body className="bgColor cardBody">
+                <Card.Title className="bgColor">nixFlix Angular App</Card.Title>
+                <Card.Img className="bgColor cardImage" src={require ('./img/angularMovie1.png')} />
+                <Card.Img className="bgColor cardImage chatAppImage" src={require ('./img/angularMovie2.png')} />
+                <Card.Text className="bgColor">A client-side movie application built with Angular that is based on existing server-side code (REST API and database). Users can register, login, add movies to a favorites list, update their profile, and delete their account.</Card.Text>
+                <div className="bgColor">
+                  <Card.Link className="bgColor project-link" href='https://github.com/Clodus-NT/angular-nixFlix' target='blank' >
+                    <Button className="linkBtn" >Code</Button>
+                  </Card.Link>
+                  <Card.Link className="bgColor project-link" href='https://clodus-nt.github.io/angular-nixFlix/welcome' target='blank' >
+                    <Button className="linkBtn" >Live</Button>
+                  </Card.Link>
+                </div>
+              </Card.Body>
+            </Card>
+          </CardGroup>
+
         {/* To-Do App */}
           <CardGroup className="bgColor todoCard cardGroup">
             <Card className="bgColor cardElement">
