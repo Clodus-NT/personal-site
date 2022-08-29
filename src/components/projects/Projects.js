@@ -46,9 +46,9 @@ export default function Projects() {
                   <Card.Link className="bgColor project-link" href='https://github.com/Clodus-NT/nix-flix-client' target='blank' >
                     <Button className="linkBtn" >Code</Button>
                   </Card.Link>
-                  <Card.Link className="bgColor project-link" href='https://clodus-nt.github.io/js-dex/' target='blank' >
+                  {/* <Card.Link className="bgColor project-link" href='https://clodus-nt.github.io/js-dex/' target='blank' >
                     <Button className="linkBtn" >Live</Button>
-                  </Card.Link>
+                  </Card.Link> */}
                 </div>
               </Card.Body>
             </Card>
