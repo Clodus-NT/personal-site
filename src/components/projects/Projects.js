@@ -43,7 +43,7 @@ export default function Projects() {
                 <Card.Img className="bgColor cardImage chatAppImage" src={require ('./img/reactMovie2.png')} />
                 <Card.Text className="bgColor">A client-side movie application built with React.js that is based on existing server-side code (REST API and database). Users can register, login, add movies to a favorites list, update their profile, and delete their account.</Card.Text>
                 <div className="bgColor">
-                  <Card.Link className="bgColor project-link" href='https://github.com/Clodus-NT/nix-flix-client' target='blank' >
+                  <Card.Link className="bgColor project-link" href='https://github.com/Clodus-NT/nixFlix-client' target='blank' >
                     <Button className="linkBtn" >Code</Button>
                   </Card.Link>
                   <Card.Link className="bgColor project-link" href='https://nix-flix-client.vercel.app/#/' target='blank' >
