@@ -12,15 +12,12 @@ export default function Contact() {
           <Card.Title className="cardTitle bgColor">Contact</Card.Title>
           <Card.Text className="bgColor contactText">Get in touch with me via email, download my resume or check out my socials.</Card.Text>
           <Card.Text className="bgColor emailText">j.nickturner@gmail.com</Card.Text>
-          {/* <div> */}
-            {/* <Button className="sendEmailBtn" onClick={() => setIsOpen(true)}>Send Me An Email</Button> */}
             <div className="emailComponentContainer">
               <EmailForm/>
             </div>
             <a className="bgColor" href='Nick_Turner_Resume_2022.pdf' download>
               <Button className="downloadBtn">Download Resume</Button>
             </a>
-          {/* </div> */}
           <Card.Body className="cardBodyLinks bgColor">
             <Card.Link target="_blank" className="bgColor" href="https://www.linkedin.com/in/nick-turner-a1b23223b/">
               <Card.Img className="bgColor" src={require ('./img/linkedin.png')} />
