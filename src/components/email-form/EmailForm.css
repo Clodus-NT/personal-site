@@ -1,0 +1,49 @@
+/* :root {
+  --color1: #000000;
+  --color2: #333333;
+  --color3: rgb(227, 227, 227);
+  --color4: #6200EE;
+} */
+
+.emailContainer {
+  width: 100%;
+}
+
+.emailForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.emailInput {
+  padding: 5px;
+  border-style: solid;
+  border-color: var(--color2);
+  border-radius: 10px;
+  margin: 10px;
+  width: 50%;
+}
+
+.emailInput:focus {
+  outline-color: var(--color4);
+}
+
+.emailFormSubmit {
+  color: var(--color3);
+  background-color: var(--color2);
+  border-style: none;
+}
+
+.emailFormSubmit:hover {
+  background-color: var(--color4);
+}
+
+@media (max-width: 500px) {
+
+  .emailInput {
+    width: 90%;
+  }
+
+}
