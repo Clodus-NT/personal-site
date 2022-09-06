@@ -1,7 +1,7 @@
 /* :root {
   --color1: #000000;
   --color2: #333333;
-  --colorBone: rgb(227, 227, 227);
+  --color3: rgb(227, 227, 227);
   --color4: #6200EE;
 } */
 
@@ -13,7 +13,7 @@
 
 .navColors:focus,
 .navColors:active {
-  color: var(--colorBone);
+  color: var(--color3);
 }
 
 /* :hover cannot be used on a catch all class or it causes issues */
