@@ -1,5 +1,6 @@
 import React from "react";
 import { Card, CardGroup, Button } from "react-bootstrap";
+import EmailModal from '../email-modal/EmailModal';
 import './Contact.css';
 
 export default function Contact() {
@@ -26,6 +27,7 @@ export default function Contact() {
           </Card.Body>
         </Card>
       </CardGroup>
+      <EmailModal />
     </div>
   )
 }
