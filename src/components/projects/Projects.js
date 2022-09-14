@@ -34,6 +34,26 @@ export default function Projects() {
             </Card>
           </CardGroup>
 
+        {/* Weather App */}
+          <CardGroup className="bgColor movieAppCard projectsCardGroup">
+              <Card className="bgColor projectsCardElement">
+                <Card.Body className="bgColor projectsCardBody">
+                  <Card.Title className="bgColor">Weather React App</Card.Title>
+                  <Card.Img className="bgColor projectsCardImage weatherAppImage" src={require ('./img/weather-app1.png')} />
+                  <Card.Img className="bgColor projectsCardImage weatherAppImage" src={require ('./img/weather-app2.png')} />
+                  <Card.Text className="bgColor">A simple weather application built with React.js that utilizes both the OpenWeatherMap API and GeoDB API to display current weather and a daily forecast for a user chosen city.</Card.Text>
+                  <div className="bgColor">
+                    <Card.Link className="bgColor project-link" href='https://github.com/Clodus-NT/weather-app' target='blank' >
+                      <Button className="linkBtn" >Code</Button>
+                    </Card.Link>
+                    <Card.Link className="bgColor project-link" href='https://clodus-nt.github.io/weather-app/' target='blank' >
+                      <Button className="linkBtn" >Live</Button>
+                    </Card.Link>
+                  </div>
+                </Card.Body>
+              </Card>
+            </CardGroup>
+
         {/* nixFlix React */}
           <CardGroup className="bgColor movieAppCard projectsCardGroup">
             <Card className="bgColor projectsCardElement">
@@ -94,7 +114,7 @@ export default function Projects() {
           </CardGroup>
 
         {/* To-Do App */}
-          <CardGroup className="bgColor todoCard projectsCardGroup">
+          {/* <CardGroup className="bgColor todoCard projectsCardGroup">
             <Card className="bgColor projectsCardElement">
               <Card.Body className="bgColor projectsCardBody">
                 <Card.Title className="bgColor">To-Do App</Card.Title>
@@ -110,7 +130,7 @@ export default function Projects() {
                 </div>
               </Card.Body>
             </Card>
-          </CardGroup>
+          </CardGroup> */}
 
         {/* Movie Api */}
           <CardGroup className="bgColor apiCard projectsCardGroup">
