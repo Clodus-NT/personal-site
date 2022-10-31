@@ -50,7 +50,7 @@
   padding: 0px;
 }
 
-.pokedexCard {
+.synthCard {
   grid-column: auto / span 2;
 }
 
@@ -84,11 +84,22 @@
   width: 70%;
 }
 
-.pokedexImageMain {
+.synthImageMain {
   width: 100%;
 }
 
-.pokedexImageStats {
+.synthImageSecond {
+  width: 100%;
+}
+
+.synthImageContainer {
+  padding: 0;
+  /* padding-left: 10px;
+  padding-right: 10px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 75%;
 }
 

@@ -12,21 +12,21 @@ export default function Projects() {
 
       <Row className="projectsCardsContainer">
 
-        {/* Pokedex */}
-          <CardGroup className="bgColor pokedexCard projectsCardGroup">
+        {/* CLo-Synth */}
+          <CardGroup className="bgColor synthCard projectsCardGroup">
             <Card className="bgColor projectsCardElement">
                 <Card.Body className="bgColor projectsCardBody">
-                  <Card.Title className="bgColor">JS-Dex</Card.Title>
-                  <div className="imageContainer bgColor">
-                    <Card.Img className="projectsCardImage pokedexImageMain" src={require ('./img/pokedex.png')} />
-                    <Card.Img className="projectsCardImage pokedexImageStats" src={require ('./img/gengar.png')} />
+                  <Card.Title className="bgColor">Clo-Synth</Card.Title>
+                  <div className="imageContainer synthImageContainer bgColor">
+                    <Card.Img className="projectsCardImage synthImageMain" src={require ('./img/clo-synth1.png')} />
+                    <Card.Img className="projectsCardImage synthImageSecond" src={require ('./img/clo-synth2.png')} />
                   </div>
-                  <Card.Text className="bgColor">This pokedex contains all 151 original, generation 1 Pokemon. It loads data from an API and displays each pokemon's name on a button that opens up a bootstrap modal displaying corresponding stats.</Card.Text>
+                  <Card.Text className="bgColor">A monophonic, browser based synthesizer built with Tone.js and p5.js. Users can choose between 4 waveforms, play notes with their keyboard and adjust an ADSR amplitude envelope.</Card.Text>
                   <div className="bgColor">
-                    <Card.Link className="bgColor project-link" href='https://github.com/Clodus-NT/js-dex' target='blank' >
+                    <Card.Link className="bgColor project-link" href='https://github.com/Clodus-NT/tonejs-synth' target='blank' >
                       <Button className="linkBtn"  >Code</Button>
                     </Card.Link>
-                    <Card.Link className="bgColor project-link" href='https://clodus-nt.github.io/js-dex/' target='blank' >
+                    <Card.Link className="bgColor project-link" href='https://clodus-nt.github.io/tonejs-synth/' target='blank' >
                       <Button className="linkBtn" >Live</Button>
                     </Card.Link>
                   </div>
