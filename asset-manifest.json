@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.43e28ba8.css",
-    "main.js": "/static/js/main.32357cb8.js",
+    "main.css": "/static/css/main.e44c6fff.css",
+    "main.js": "/static/js/main.3851a04a.js",
     "static/media/angularMovie1.png": "/static/media/angularMovie1.626f8167003b3c64a68f.png",
     "static/media/reactMovie1.png": "/static/media/reactMovie1.5f3802d1a732a401b849.png",
     "static/media/reactMovie2.png": "/static/media/reactMovie2.a683ccbafcd395bf134b.png",
+    "static/media/clo-synth2.png": "/static/media/clo-synth2.e897092ee19b00f81031.png",
+    "static/media/clo-synth1.png": "/static/media/clo-synth1.d80ab1cf29e264112969.png",
     "static/media/angularMovie2.png": "/static/media/angularMovie2.33956ef5d6c4e5089bcd.png",
     "static/media/chatapp1crop.png": "/static/media/chatapp1crop.d2c76d8f88be8be59875.png",
     "static/media/postmanTest.png": "/static/media/postmanTest.fae37cd46c60d9fbc12c.png",
-    "static/media/pokedex.png": "/static/media/pokedex.870210ef8531ef874010.png",
     "static/media/chatapp2crop.png": "/static/media/chatapp2crop.52a484299c8bb6b90c71.png",
     "static/media/weather-app1.png": "/static/media/weather-app1.ea33c19cbadd09c8af86.png",
     "static/media/weather-app2.png": "/static/media/weather-app2.f9767b6da07e5a677e88.png",
-    "static/media/gengar.png": "/static/media/gengar.96826aa868ee9aa22df4.png",
     "index.html": "/index.html",
-    "main.43e28ba8.css.map": "/static/css/main.43e28ba8.css.map",
-    "main.32357cb8.js.map": "/static/js/main.32357cb8.js.map"
+    "main.e44c6fff.css.map": "/static/css/main.e44c6fff.css.map",
+    "main.3851a04a.js.map": "/static/js/main.3851a04a.js.map"
   },
   "entrypoints": [
-    "static/css/main.43e28ba8.css",
-    "static/js/main.32357cb8.js"
+    "static/css/main.e44c6fff.css",
+    "static/js/main.3851a04a.js"
   ]
 }
