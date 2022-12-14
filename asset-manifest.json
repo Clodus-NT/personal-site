@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e44c6fff.css",
-    "main.js": "/static/js/main.3851a04a.js",
+    "main.js": "/static/js/main.d3335a73.js",
     "static/media/angularMovie1.png": "/static/media/angularMovie1.626f8167003b3c64a68f.png",
     "static/media/reactMovie1.png": "/static/media/reactMovie1.5f3802d1a732a401b849.png",
     "static/media/reactMovie2.png": "/static/media/reactMovie2.a683ccbafcd395bf134b.png",
@@ -15,10 +15,10 @@
     "static/media/weather-app2.png": "/static/media/weather-app2.f9767b6da07e5a677e88.png",
     "index.html": "/index.html",
     "main.e44c6fff.css.map": "/static/css/main.e44c6fff.css.map",
-    "main.3851a04a.js.map": "/static/js/main.3851a04a.js.map"
+    "main.d3335a73.js.map": "/static/js/main.d3335a73.js.map"
   },
   "entrypoints": [
     "static/css/main.e44c6fff.css",
-    "static/js/main.3851a04a.js"
+    "static/js/main.d3335a73.js"
   ]
 }
