@@ -9,7 +9,7 @@ export default function About() {
         <Card className="aboutCard bgColor">
           <Card.Title className="aboutCardTitle bgColor">About</Card.Title>
           <Card.Text className="bgColor aboutText">Hello World! I'm Nick, a web developer currently residing in Tallahassee, Florida. I discovered a love for coding after deciding to move on from retail work and was pleasanlty surprised to find that the skills I had learned such as time management, flexibility, and problem solving carried over into web development. My passion for coding is accompanied by a desire to never stop learning.</Card.Text>
-          <a className="bgColor" href='Nick_Turner_Resume.pdf' download>
+          <a className="bgColor" href='Nick-Turner_Resume.pdf' download>
             <Button className="aboutDownloadBtn">Download Resume</Button>
           </a>
           <Card.Body className="aboutBodyLinks bgColor">

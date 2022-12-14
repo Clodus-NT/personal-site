@@ -15,7 +15,7 @@ export default function Contact() {
             <div className="emailComponentContainer">
               <EmailForm/>
             </div>
-            <a className="bgColor" href='Nick_Turner_Resume.pdf' download>
+            <a className="bgColor" href='Nick-Turner_Resume.pdf' download>
               <Button className="downloadBtn">Download Resume</Button>
             </a>
           <Card.Body className="cardBodyLinks bgColor">
